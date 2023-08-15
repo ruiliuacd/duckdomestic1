@@ -1,0 +1,555 @@
+nohup: ignoring input
+/home/bioinfo/liurui/software/life/src/NGS/BasicUtil/Util.py
+/home/bioinfo/liurui/software/life/src/NGS/BasicUtil/Util.py
+KB742386.1 696499 329
+KB742386.1 696499 164
+KB742386.1 696499 246
+KB742386.1 696499 287
+KB742386.1 696499 308
+KB742386.1 696499 318
+KB742386.1 696499 323
+KB742386.1 696499 320
+KB742386.1 696499 321
+KB742386.1 696499 322
+KB742386.1 696499 9789
+KB742386.1 696499 14684
+KB742386.1 696499 12236
+KB742386.1 696499 11012
+KB742386.1 696499 10400
+KB742386.1 696499 10094
+KB742386.1 696499 9941
+KB742386.1 696499 10017
+KB742386.1 696499 9979
+KB742386.1 696499 9960
+KB742386.1 696499 9950
+KB742386.1 696499 9945
+KB742386.1 696499 9943
+KB742386.1 696499 9944
+KB742386.1	660000	720000	2	-5.277460445121	ENSAPLT00000010356	PPP1R14C
+select high delta AF
+KB742479.1 480000 885
+KB742479.1 480000 442
+KB742479.1 480000 663
+KB742479.1 480000 774
+KB742479.1 480000 718
+KB742479.1 480000 690
+KB742479.1 480000 704
+KB742479.1 480000 711
+KB742479.1 480000 714
+KB742479.1 480000 712
+KB742479.1 480000 713
+KB742479.1 480000 18427
+KB742479.1 480000 9213
+KB742479.1 480000 13820
+KB742479.1 480000 16123
+KB742479.1 480000 14971
+KB742479.1 480000 14395
+KB742479.1 480000 14683
+KB742479.1 480000 14539
+KB742479.1 480000 14467
+KB742479.1 480000 14431
+KB742479.1 480000 14449
+KB742479.1 480000 14440
+KB742479.1 480000 14435
+KB742479.1 480000 14437
+KB742479.1 480000 14438
+KB742479.1 480000 14439
+KB742479.1	480000	520000	1	-5.522022938187	ENSAPLT00000014450	CDH4
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+KB742590.1	1140000	1180000	1	-5.290826160281
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select chrID,snp_pos,mallard14_indvd_withindel_vcf.ref_base,mallard14_indvd_withindel_vcf.alt_base,spotbilled13_indvd_withindel_vcf.ref_base,spotbilled13_indvd_withindel_vcf.alt_base,gaoyou__pool_withindel_vcf.ref_base,gaoyou__pool_withindel_vcf.alt_base,jinding__pool_withindel_vcf.ref_base,jinding__pool_withindel_vcf.alt_base,lianchengbai__pool_withindel_vcf.ref_base,lianchengbai__pool_withindel_vcf.alt_base,shanma__pool_withindel_vcf.ref_base,shanma__pool_withindel_vcf.alt_base,pekingduck27_indvd_withindel_vcf.ref_base,pekingduck27_indvd_withindel_vcf.alt_base,shaoxingqingkeegg27_indvd_withindel_vcf.ref_base,shaoxingqingkeegg27_indvd_withindel_vcf.alt_base,mallard14_indvd_withindel_vcf.AF,spotbilled13_indvd_withindel_vcf.AF,gaoyou__pool_withindel_vcf.AF,jinding__pool_withindel_vcf.AF,lianchengbai__pool_withindel_vcf.AF,shanma__pool_withindel_vcf.AF,pekingduck27_indvd_withindel_vcf.AF,shaoxingqingkeegg27_indvd_withindel_vcf.AF from mallard14_indvd_withindel_vcf left join spotbilled13_indvd_withindel_vcf using(chrID,snp_pos)  left join gaoyou__pool_withindel_vcf using(chrID,snp_pos)  left join jinding__pool_withindel_vcf using(chrID,snp_pos)  left join lianchengbai__pool_withindel_vcf using(chrID,snp_pos)  left join shanma__pool_withindel_vcf using(chrID,snp_pos)  left join pekingduck27_indvd_withindel_vcf using(chrID,snp_pos)  left join shaoxingqingkeegg27_indvd_withindel_vcf using(chrID,snp_pos)  where chrID='KB742590.1' and snp_pos>1145841 and snp_pos< 1147957 union select chrID,snp_pos,mallard14_indvd_withindel_vcf.ref_base,mallard14_indvd_withindel_vcf.alt_base,spotbilled13_indvd_withindel_vcf.ref_base,spotbilled13_indvd_withindel_vcf.alt_base,gaoyou__pool_withindel_vcf.ref_base,gaoyou__pool_withindel_vcf.alt_base,jinding__pool_withindel_vcf.ref_base,jinding__pool_withindel_vcf.alt_base,lianchengbai__pool_withindel_vcf.ref_base,lianchengbai__pool_withindel_vcf.alt_base,shanma__pool_withindel_vcf.ref_base,shanma__pool_withindel_vcf.alt_base,pekingduck27_indvd_withindel_vcf.ref_base,pekingduck27_indvd_withindel_vcf.alt_base,shaoxingqingkeegg27_indvd_withindel_vcf.ref_base,shaoxingqingkeegg27_indvd_withindel_vcf.alt_base,mallard14_indvd_withindel_vcf.AF,spotbilled13_indvd_withindel_vcf.AF,gaoyou__pool_withindel_vcf.AF,jinding__pool_withindel_vcf.AF,lianchengbai__pool_withindel_vcf.AF,shanma__pool_withindel_vcf.AF,pekingduck27_indvd_withindel_vcf.AF,shaoxingqingkeegg27_indvd_withindel_vcf.AF from mallard14_indvd_withindel_vcf right join spotbilled13_indvd_withindel_vcf using(chrID,snp_pos)  right join gaoyou__pool_withindel_vcf using(chrID,snp_pos)  right join jinding__pool_withindel_vcf using(chrID,snp_pos)  right join lianchengbai__pool_withindel_vcf using(chrID,snp_pos)  right join shanma__pool_withindel_vcf using(chrID,snp_pos)  right join pekingduck27_indvd_withindel_vcf using(chrID,snp_pos)  right join shaoxingqingkeegg27_indvd_withindel_vcf using(chrID,snp_pos)  where chrID='KB742590.1' and snp_pos>1145841 and snp_pos< 1147957
+select high delta AF
+select high delta AF
+KB742602.1 360000 60
+KB742602.1 360000 90
+KB742602.1 360000 75
+KB742602.1 360000 82
+KB742602.1 360000 78
+KB742602.1 360000 80
+KB742602.1 360000 79
+KB742602.1 360000 2277
+KB742602.1 360000 3416
+KB742602.1 360000 3985
+KB742602.1 360000 3700
+KB742602.1 360000 3558
+KB742602.1 360000 3487
+KB742602.1 360000 3451
+KB742602.1 360000 3433
+KB742602.1 360000 3442
+KB742602.1 360000 3446
+KB742602.1 360000 3448
+KB742602.1 360000 3447
+KB742602.1	360000	400000	1	-5.026866722584	ENSAPLT00000011920	FBXO4
+KB742741.1 180000 10
+KB742741.1 180000 4
+KB742741.1 180000 7
+KB742741.1 180000 5
+KB742741.1 180000 444
+KB742741.1 180000 221
+KB742741.1 180000 110
+KB742741.1 180000 165
+KB742741.1 180000 137
+KB742741.1 180000 123
+KB742741.1 180000 130
+KB742741.1 180000 126
+KB742741.1 180000 128
+KB742741.1 180000 127
+KB742741.1	180000	220000	1	-5.142360163395	ENSAPLT00000014337	MPDZ
+KB742833.1 1500000 804
+KB742833.1 1500000 401
+KB742833.1 1500000 200
+KB742833.1 1500000 300
+KB742833.1 1500000 350
+KB742833.1 1500000 325
+KB742833.1 1500000 312
+KB742833.1 1500000 306
+KB742833.1 1500000 303
+KB742833.1 1500000 301
+KB742833.1 1500000 32348
+KB742833.1 1500000 16173
+KB742833.1 1500000 24260
+KB742833.1 1500000 20216
+KB742833.1 1500000 18194
+KB742833.1 1500000 17183
+KB742833.1 1500000 16678
+KB742833.1 1500000 16930
+KB742833.1 1500000 16804
+KB742833.1 1500000 16741
+KB742833.1 1500000 16709
+KB742833.1 1500000 16725
+KB742833.1 1500000 16733
+KB742833.1 1500000 16737
+KB742833.1 1500000 16739
+KB742833.1 1500000 16738
+KB742833.1	1500000	1560000	2	-5.037083854937	ENSAPLT00000016666	FAM53A
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+KB742853.1 540000 212
+KB742853.1 540000 105
+KB742853.1 540000 52
+KB742853.1 540000 78
+KB742853.1 540000 65
+KB742853.1 540000 58
+KB742853.1 540000 61
+KB742853.1 540000 63
+KB742853.1 540000 64
+KB742853.1 540000 10050
+KB742853.1 540000 5024
+KB742853.1 540000 2511
+KB742853.1 540000 3767
+KB742853.1 540000 3139
+KB742853.1 540000 2825
+KB742853.1 540000 2668
+KB742853.1 540000 2589
+KB742853.1 540000 2628
+KB742853.1 540000 2648
+KB742853.1 540000 2658
+KB742853.1 540000 2663
+KB742853.1 540000 2665
+KB742853.1 540000 2666
+KB742853.1 540000 2667
+KB742853.1	540000	600000	2	-5.017233538969	ENSAPLT00000013011	PDGFC
+select high delta AF
+KB742877.1	380000	420000	1	-5.529071993743	ENSAPLT00000001278	59506<-TMEM170B
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+KB742969.1 760000 434
+KB742969.1 760000 216
+KB742969.1 760000 107
+KB742969.1 760000 53
+KB742969.1 760000 26
+KB742969.1 760000 12
+KB742969.1 760000 19
+KB742969.1 760000 15
+KB742969.1 760000 17
+KB742969.1 760000 16
+KB742969.1 760000 18643
+KB742969.1 760000 9321
+KB742969.1 760000 4660
+KB742969.1 760000 2329
+KB742969.1 760000 3494
+KB742969.1 760000 4077
+KB742969.1 760000 3785
+KB742969.1 760000 3639
+KB742969.1 760000 3712
+KB742969.1 760000 3675
+KB742969.1 760000 3693
+KB742969.1 760000 3702
+KB742969.1 760000 3697
+KB742969.1 760000 3699
+KB742969.1 760000 3700
+KB742969.1 760000 3701
+KB742969.1	760000	840000	3	-5.072433652897	ENSAPLT00000012003	TMEM132C
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+KB742969.1 860000 434
+KB742969.1 860000 216
+KB742969.1 860000 107
+KB742969.1 860000 53
+KB742969.1 860000 26
+KB742969.1 860000 39
+KB742969.1 860000 32
+KB742969.1 860000 35
+KB742969.1 860000 37
+KB742969.1 860000 36
+KB742969.1 860000 18643
+KB742969.1 860000 9321
+KB742969.1 860000 4660
+KB742969.1 860000 6990
+KB742969.1 860000 5825
+KB742969.1 860000 5242
+KB742969.1 860000 4951
+KB742969.1 860000 5096
+KB742969.1 860000 5023
+KB742969.1 860000 4987
+KB742969.1 860000 4969
+KB742969.1 860000 4960
+KB742969.1 860000 4964
+KB742969.1 860000 4962
+KB742969.1 860000 4961
+KB742969.1 894391 434
+KB742969.1 894391 216
+KB742969.1 894391 107
+KB742969.1 894391 53
+KB742969.1 894391 26
+KB742969.1 894391 39
+KB742969.1 894391 46
+KB742969.1 894391 49
+KB742969.1 894391 51
+KB742969.1 894391 50
+KB742969.1 894391 18643
+KB742969.1 894391 9321
+KB742969.1 894391 4660
+KB742969.1 894391 6990
+KB742969.1 894391 5825
+KB742969.1 894391 5242
+KB742969.1 894391 5533
+KB742969.1 894391 5387
+KB742969.1 894391 5460
+KB742969.1 894391 5423
+KB742969.1 894391 5441
+KB742969.1 894391 5432
+KB742969.1 894391 5436
+KB742969.1 894391 5438
+KB742969.1 894391 5437
+KB742969.1	860000	900000	1	-5.475602337892	ENSAPLT00000012261,ENSAPLT00000012435	SLC15A4,GLT1D1
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+KB742969.1 940000 434
+KB742969.1 940000 216
+KB742969.1 940000 107
+KB742969.1 940000 53
+KB742969.1 940000 80
+KB742969.1 940000 66
+KB742969.1 940000 59
+KB742969.1 940000 62
+KB742969.1 940000 60
+KB742969.1 940000 61
+KB742969.1 940000 18643
+KB742969.1 940000 9321
+KB742969.1 940000 4660
+KB742969.1 940000 6990
+KB742969.1 940000 5825
+KB742969.1 940000 6407
+KB742969.1 940000 6698
+KB742969.1 940000 6552
+KB742969.1 940000 6479
+KB742969.1 940000 6443
+KB742969.1 940000 6425
+KB742969.1 940000 6416
+KB742969.1 940000 6411
+KB742969.1 940000 6409
+KB742969.1 940000 6410
+KB742969.1 968442 434
+KB742969.1 968442 216
+KB742969.1 968442 107
+KB742969.1 968442 53
+KB742969.1 968442 80
+KB742969.1 968442 66
+KB742969.1 968442 59
+KB742969.1 968442 62
+KB742969.1 968442 60
+KB742969.1 968442 61
+KB742969.1 968442 18643
+KB742969.1 968442 9321
+KB742969.1 968442 4660
+KB742969.1 968442 6990
+KB742969.1 968442 5825
+KB742969.1 968442 6407
+KB742969.1 968442 6698
+KB742969.1 968442 6552
+KB742969.1 968442 6479
+KB742969.1 968442 6443
+KB742969.1 968442 6425
+KB742969.1 968442 6434
+KB742969.1 968442 6438
+KB742969.1 968442 6440
+KB742969.1 968442 6441
+KB742969.1	940000	1000000	2	-5.49634729173	ENSAPLT00000012435,ENSAPLT00000012672	GLT1D1,TMEM132D
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+KB742977.1	660000	700000	1	-5.062943237481	ENSAPLT00000002033	104626<+FAM84B
+select high delta AF
+KB743256.1 1125424 591
+KB743256.1 1125424 887
+KB743256.1 1125424 1035
+KB743256.1 1125424 961
+KB743256.1 1125424 998
+KB743256.1 1125424 979
+KB743256.1 1125424 970
+KB743256.1 1125424 965
+KB743256.1 1125424 967
+KB743256.1 1125424 966
+KB743256.1 1125424 8235
+KB743256.1 1125424 12353
+KB743256.1 1125424 14412
+KB743256.1 1125424 13382
+KB743256.1 1125424 13897
+KB743256.1 1125424 13639
+KB743256.1 1125424 13768
+KB743256.1 1125424 13832
+KB743256.1 1125424 13864
+KB743256.1 1125424 13848
+KB743256.1 1125424 13856
+KB743256.1 1125424 13852
+KB743256.1 1125424 13854
+KB743256.1 1125424 13853
+KB743256.1 1143997 591
+KB743256.1 1143997 887
+KB743256.1 1143997 1035
+KB743256.1 1143997 961
+KB743256.1 1143997 998
+KB743256.1 1143997 1016
+KB743256.1 1143997 1007
+KB743256.1 1143997 1011
+KB743256.1 1143997 1009
+KB743256.1 1143997 1008
+KB743256.1 1143997 8235
+KB743256.1 1143997 12353
+KB743256.1 1143997 14412
+KB743256.1 1143997 13382
+KB743256.1 1143997 13897
+KB743256.1 1143997 14154
+KB743256.1 1143997 14283
+KB743256.1 1143997 14347
+KB743256.1 1143997 14379
+KB743256.1 1143997 14363
+KB743256.1 1143997 14355
+KB743256.1 1143997 14359
+KB743256.1 1143997 14357
+KB743256.1 1143997 14356
+KB743256.1 1152366 591
+KB743256.1 1152366 887
+KB743256.1 1152366 1035
+KB743256.1 1152366 961
+KB743256.1 1152366 998
+KB743256.1 1152366 1016
+KB743256.1 1152366 1025
+KB743256.1 1152366 1020
+KB743256.1 1152366 1018
+KB743256.1 1152366 1017
+KB743256.1 1152366 8235
+KB743256.1 1152366 12353
+KB743256.1 1152366 14412
+KB743256.1 1152366 15441
+KB743256.1 1152366 14926
+KB743256.1 1152366 14669
+KB743256.1 1152366 14540
+KB743256.1 1152366 14604
+KB743256.1 1152366 14572
+KB743256.1 1152366 14556
+KB743256.1 1152366 14548
+KB743256.1 1152366 14552
+KB743256.1 1152366 14554
+KB743256.1 1152366 14555
+KB743256.1	1120000	1160000	1	-5.411010762844	ENSAPLT00000002046,ENSAPLT00000002648,ENSAPLT00000002898	AREL1,FCF1,YLPM1
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select high delta AF
+select chrID,snp_pos,mallard14_indvd_withindel_vcf.ref_base,mallard14_indvd_withindel_vcf.alt_base,spotbilled13_indvd_withindel_vcf.ref_base,spotbilled13_indvd_withindel_vcf.alt_base,gaoyou__pool_withindel_vcf.ref_base,gaoyou__pool_withindel_vcf.alt_base,jinding__pool_withindel_vcf.ref_base,jinding__pool_withindel_vcf.alt_base,lianchengbai__pool_withindel_vcf.ref_base,lianchengbai__pool_withindel_vcf.alt_base,shanma__pool_withindel_vcf.ref_base,shanma__pool_withindel_vcf.alt_base,pekingduck27_indvd_withindel_vcf.ref_base,pekingduck27_indvd_withindel_vcf.alt_base,shaoxingqingkeegg27_indvd_withindel_vcf.ref_base,shaoxingqingkeegg27_indvd_withindel_vcf.alt_base,mallard14_indvd_withindel_vcf.AF,spotbilled13_indvd_withindel_vcf.AF,gaoyou__pool_withindel_vcf.AF,jinding__pool_withindel_vcf.AF,lianchengbai__pool_withindel_vcf.AF,shanma__pool_withindel_vcf.AF,pekingduck27_indvd_withindel_vcf.AF,shaoxingqingkeegg27_indvd_withindel_vcf.AF from mallard14_indvd_withindel_vcf left join spotbilled13_indvd_withindel_vcf using(chrID,snp_pos)  left join gaoyou__pool_withindel_vcf using(chrID,snp_pos)  left join jinding__pool_withindel_vcf using(chrID,snp_pos)  left join lianchengbai__pool_withindel_vcf using(chrID,snp_pos)  left join shanma__pool_withindel_vcf using(chrID,snp_pos)  left join pekingduck27_indvd_withindel_vcf using(chrID,snp_pos)  left join shaoxingqingkeegg27_indvd_withindel_vcf using(chrID,snp_pos)  where chrID='KB743256.1' and snp_pos>1137348 and snp_pos< 1139126 union select chrID,snp_pos,mallard14_indvd_withindel_vcf.ref_base,mallard14_indvd_withindel_vcf.alt_base,spotbilled13_indvd_withindel_vcf.ref_base,spotbilled13_indvd_withindel_vcf.alt_base,gaoyou__pool_withindel_vcf.ref_base,gaoyou__pool_withindel_vcf.alt_base,jinding__pool_withindel_vcf.ref_base,jinding__pool_withindel_vcf.alt_base,lianchengbai__pool_withindel_vcf.ref_base,lianchengbai__pool_withindel_vcf.alt_base,shanma__pool_withindel_vcf.ref_base,shanma__pool_withindel_vcf.alt_base,pekingduck27_indvd_withindel_vcf.ref_base,pekingduck27_indvd_withindel_vcf.alt_base,shaoxingqingkeegg27_indvd_withindel_vcf.ref_base,shaoxingqingkeegg27_indvd_withindel_vcf.alt_base,mallard14_indvd_withindel_vcf.AF,spotbilled13_indvd_withindel_vcf.AF,gaoyou__pool_withindel_vcf.AF,jinding__pool_withindel_vcf.AF,lianchengbai__pool_withindel_vcf.AF,shanma__pool_withindel_vcf.AF,pekingduck27_indvd_withindel_vcf.AF,shaoxingqingkeegg27_indvd_withindel_vcf.AF from mallard14_indvd_withindel_vcf right join spotbilled13_indvd_withindel_vcf using(chrID,snp_pos)  right join gaoyou__pool_withindel_vcf using(chrID,snp_pos)  right join jinding__pool_withindel_vcf using(chrID,snp_pos)  right join lianchengbai__pool_withindel_vcf using(chrID,snp_pos)  right join shanma__pool_withindel_vcf using(chrID,snp_pos)  right join pekingduck27_indvd_withindel_vcf using(chrID,snp_pos)  right join shaoxingqingkeegg27_indvd_withindel_vcf using(chrID,snp_pos)  where chrID='KB743256.1' and snp_pos>1137348 and snp_pos< 1139126
+KB743466.1 180000 6
+KB743466.1 180000 10
+KB743466.1 180000 8
+KB743466.1 180000 9
+KB743466.1 180000 1234
+KB743466.1 180000 1852
+KB743466.1 180000 2161
+KB743466.1 180000 2006
+KB743466.1 180000 1929
+KB743466.1 180000 1890
+KB743466.1 180000 1909
+KB743466.1 180000 1899
+KB743466.1 180000 1904
+KB743466.1 180000 1901
+KB743466.1 180000 1900
+KB743466.1	180000	220000	1	-5.002958950899	ENSAPLT00000015476	GLIS3
+KB743534.1 43735 18
+KB743534.1 43735 8
+KB743534.1 43735 3
+KB743534.1 43735 1
+KB743534.1 43735 0
+KB743534.1 43735 4921
+KB743534.1 43735 2460
+KB743534.1 43735 1229
+KB743534.1 43735 614
+KB743534.1 43735 306
+KB743534.1 43735 152
+KB743534.1 43735 75
+KB743534.1 43735 37
+KB743534.1 43735 18
+KB743534.1 43735 8
+KB743534.1 43735 3
+KB743534.1 43735 1
+KB743534.1 43735 0
+KB743534.1	40000	80000	1	-5.152752038095	ENSAPLT00000014497	GRM8
+select high delta AF
+KB743543.1 340074 225
+KB743543.1 340074 112
+KB743543.1 340074 168
+KB743543.1 340074 140
+KB743543.1 340074 154
+KB743543.1 340074 147
+KB743543.1 340074 150
+KB743543.1 340074 148
+KB743543.1 340074 149
+KB743543.1 340074 4989
+KB743543.1 340074 7484
+KB743543.1 340074 6236
+KB743543.1 340074 5612
+KB743543.1 340074 5300
+KB743543.1 340074 5144
+KB743543.1 340074 5066
+KB743543.1 340074 5105
+KB743543.1 340074 5124
+KB743543.1 340074 5134
+KB743543.1 340074 5129
+KB743543.1 340074 5126
+KB743543.1 340074 5127
+KB743543.1 340074 5128
+KB743543.1	340000	400000	2	-6.211136804342	ENSAPLT00000006672	LYST
+select high delta AF
+KB743964.1	100000	140000	1	-5.054745716583	ENSAPLT00000016668	42173<+
+KB744477.1 831604 144
+KB744477.1 831604 71
+KB744477.1 831604 107
+KB744477.1 831604 89
+KB744477.1 831604 98
+KB744477.1 831604 93
+KB744477.1 831604 95
+KB744477.1 831604 94
+KB744477.1 831604 4730
+KB744477.1 831604 7095
+KB744477.1 831604 8278
+KB744477.1 831604 7686
+KB744477.1 831604 7390
+KB744477.1 831604 7538
+KB744477.1 831604 7612
+KB744477.1 831604 7575
+KB744477.1 831604 7556
+KB744477.1 831604 7547
+KB744477.1 831604 7551
+KB744477.1 831604 7553
+KB744477.1 831604 7554
+KB744477.1 831604 7555
+KB744477.1	760000	840000	3	-6.668965352088	ENSAPLT00000004358,ENSAPLT00000004569	PER2
+select high delta AF
+select high delta AF
+KB751155.1 260000 19
+KB751155.1 260000 29
+KB751155.1 260000 24
+KB751155.1 260000 21
+KB751155.1 260000 22
+KB751155.1 260000 23
+KB751155.1 260000 548
+KB751155.1 260000 823
+KB751155.1 260000 960
+KB751155.1 260000 891
+KB751155.1 260000 925
+KB751155.1 260000 942
+KB751155.1 260000 951
+KB751155.1 260000 955
+KB751155.1 260000 957
+KB751155.1 260000 958
+KB751155.1	260000	300000	1	-5.178023519923	ENSAPLT00000016981	DGKQ

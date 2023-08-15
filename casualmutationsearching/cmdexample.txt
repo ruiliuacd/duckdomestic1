@@ -1,0 +1,7 @@
+python ./src/NGS/SwissArmyKnife/CatalogSNPincandidateRegion.py -r Anas_platyrhynchos.BGI_duck_1.0.dna_sm.toplevel.fa -g /path/to/databases/Anas_platyrhynchos.BGI_duck_1.0.77.gtf 1000 1000 -d gaoyou__pool_withindel_vcf -d jinding__pool_withindel_vcf -d lianchengbai__pool_withindel_vcf -d shanma__pool_withindel_vcf -d pekingduck27_indvd_withindel_vcf -d shaoxingqingkeegg27_indvd_withindel_vcf -w mallard14_indvd_withindel_vcf -w spotbilled13_indvd_withindel_vcf -R /path/to/data/detectselection/uniqmap/earlystageselectivesweep/20k10k/earlyselectInWild20000_10000.bed.selectedgene -E /path/to/databases/uce-filtered-alignments-w-gator/ anas_platyrhynchos_domestica -o earlyselection -c /path/to/data/catalogVariant/ploidy -t mspsgjlksy10pop_toplevel_pekingduckref
+
+约定将cds,intron,utr文件按照类似于vcf map的方式读入内存，[(pos,REF,ALT,INFO,FOMAT,samples),()]
+约定INFO为文件中的trscptID以及之后的列
+约定FOMAT为AF
+Sample为 DP或AN
+-E的第二个参数如果为none，则直接将其中的fa序列blast
