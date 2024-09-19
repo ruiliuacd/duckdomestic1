@@ -1,0 +1,32 @@
+# BUSCO version is: 5.7.1 
+# The lineage dataset is: aves_odb10 (Creation date: 2024-01-08, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /opt/pubdata/avian/spotbilled_wildduck/D2B/D2B_V5.0.fa
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:98.1%[S:96.4%,D:1.7%],F:0.8%,M:1.1%,n:8338,E:5.7%	   
+	8185	Complete BUSCOs (C)	(of which 470 contain internal stop codons)		   
+	8041	Complete and single-copy BUSCOs (S)	   
+	144	Complete and duplicated BUSCOs (D)	   
+	66	Fragmented BUSCOs (F)			   
+	87	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	67686	Number of scaffolds
+	122715	Number of contigs
+	1317385452	Total length
+	9.868%	Percent gaps
+	2 MB	Scaffold N50
+	114 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.13-r248
+	miniprot_align: 0.13-r248
+	python: sys.version_info(major=3, minor=7, micro=9, releaselevel='final', serial=0)
+	busco: 5.7.1
