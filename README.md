@@ -15,5 +15,4 @@ wrapper will automately collected all the simulated estimates and all the arrays
 
 
 
-We will make all those analyzing functions could be easy performed in a web platform. or contact us for the code to fully replicate our research, through http://www.atcgorder.com:8082/ (as some code coupling with our other program such as analysis platform, so we provied all necessary code for the logic of replicating analysis but not all exactly codes.)
-(http://www.atcgorder.cn:8082/)
+some of the analyzing process were recorded in http://www.atcgorder.com  and could be easy performed in this web platform. or contact us for the code to fully replicate our research (http://www.atcgorder.cn)
