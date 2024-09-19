@@ -16,3 +16,12 @@ wrapper will automately collected all the simulated estimates and all the arrays
 
 
 some of the analyzing process were recorded in http://www.atcgorder.com  and could be easy performed in this web platform. or contact us for the code to fully replicate our research (http://www.atcgorder.cn)
+![all147indvd direct](https://github.com/user-attachments/assets/270916b7-3ff9-438c-8d8e-efc232bd670f)
+supplemented pub duck sequencing data with our data, performed analysis on ZJU1 beijing duck genome reference.(currently of 3 chromosomes with variants called)
+all filled pch represent data from our original data of this article(Shaoxing data has pubed in ...bulleggs...)
+all pch not filled represent ducks from public data
+green are all mallard ducks
+blue are all spotbilled ducks
+'*' astral represent D2L, D2B we used for assembly
+pub Doms include: 2 JianAn, 3 Longcheng jade green, 3 Mawang, 3 Putian, 3 Taiwan, 3 Sansui, 3 Youxian.
+LCW: Liancheng White, MPL : Maple
