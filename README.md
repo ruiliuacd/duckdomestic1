@@ -118,11 +118,12 @@ number of blocks for block jackknife: 258
  result:	spotbilled  mallard     domestic   0.090572  0.001885    48.049	3956735
 ###3.  PCA on ZJU1
 
+![all147indvd r2_0 5](https://github.com/user-attachments/assets/68c10588-c28b-4caa-9a40-7ac5085d7ada)
 
 supplemented non r2 pruned results.(currently of 3 chromosomes with variants called) 
 ![all147indvd direct](https://github.com/user-attachments/assets/270916b7-3ff9-438c-8d8e-efc232bd670f)
 
-
+unpruned SNP set showS a more fine-resulotion of PCA
 
 All filled pch represent data from our original data of this article(Shaoxing data has pubed in ...bullshell eggs...)
 
