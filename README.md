@@ -114,8 +114,9 @@ qp3Pop version:701
 inbreed set NO
 Number of triples 1
 snps: 3957376
+
 number of blocks for block jackknife: 258
-			Source1     Source2     Target     f_3        std.err     Z	SNPs
+.			Source1     Source2     Target     f_3        std.err     Z	SNPs
  result:	spotbilled  mallard     domestic   0.090572  0.001885    48.049	3956735
 ###3.  PCA on ZJU1
 
