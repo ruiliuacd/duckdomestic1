@@ -107,6 +107,7 @@ As we mentioned in recent editon submitted to a journal, we replicate most analy
 	use original model
     
 F3 and PCA are based on the same dataset that joint-calling from GATK of all sampes of 12 chromosomes and after plink r2=0.5 prune.(supplemented with non pruned full SNPs sets)
+
 ####2.  F3-statistic
 
 qp3Pop version:701
