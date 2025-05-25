@@ -145,5 +145,6 @@ LCW: Liancheng White, MPL : Maple
 two chromosome-level genomes are deposit in the NCBI(NOIJ02000000) and some additional information under assembly/.
 cite: https://doi.org/10.1101/2020.02.03.933069
 
-Our this article last time was reject due to a reviewer claims that our findings have been reported in somewhere else for one reason, which is not true and they published later than ours preprint version. 
+Our [this article](manuscript/MS for genome biology clean.pdf) last time was reject due to [a reviewer claims that our findings have been reported in somewhere else for one reason, which is not true and they published later than ours preprint version](manuscript/point to point file GBIO.pdf). 
+
 I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.
