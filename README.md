@@ -1,13 +1,18 @@
 
-This is for providing more detail information.
-dadi simulation (with example based on BGI_1.0 and ZJU1 reference)
-basically, there are two steps for replicating dadi simulations:
+This repo providing more detail information for https://doi.org/10.1101/2020.02.03.933069. ["Genomic analyses reveal the origin of domestic ducks and identify different genetic underpinnings of wild ducks"](manuscript/MS%20for%20genome%20biology%20clean.pdf) that has been reject due to [a reviewer claims that our findings have been reported in somewhere else for one reason, which is not true and they published later than ours preprint version](manuscript/point%20to%20point%20file%20GBIO.pdf).  
+So here I made a short declaration. The core results presented in the paper, [which was used by the third reviewer to reject our submission](manuscript/point%20to%20point%20file%20GBIO.pdf)—and which I believe were authored by the reviewer— were results we had reached at least four years before his publications (2020) and first documented in my PHD thesis in chinese in 2017 and post to bioarxiv in 2020. This scintific question is chanllange especially when I was assigned to start this project with only few pooling sequenced domestic samples. Though I'd commit huge resource and finially made those interesting findings under the supervision of my new administrator, I failed to earn my administrator's trust and couldn't smoothly obtain permission to effeciently work on publication and further the research after those findings. So the first "under review" process domaniate by me is in ME 2019 and I even unaware that my administrator was planning a new research project related to this work and finially cause some misunderstandings during the review process with conmunication with editors in the last submission.  
+
+Two chromosome-level genomes are deposit in the NCBI(NOIJ02000000) and some additional information under assembly/.
+cite:  
+
+I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.
+######dadi simulation (with example based on BGI_1.0 and ZJU1 reference)  
+basically, there are two steps for replicating dadi simulations:  
 first, repeatly generate input files of dadi by sampling from SNP callling files(obtained by using GenerateSNPfilefromvcffile.py or GenerateSNPfilefromvcftable.py for vcf files or sql snp databases for populations, respectively)
 This's been done through the process: using a sql outer-join like function, merge all selected population vcf files into a big snp table, and sample sites from it then produce dadi input file for each sampling.(detail see article methods)
-we proveded an example file m_sp_sx_pk_gy_lcb_jd_sm_ytg_kbe_fanyaonly_newdilutetodensity0.01(BGI_1.0) that is produeced from such process and can be used to conduct the results presenting in article through the below step.
+we proveded an example file m_sp_sx_pk_gy_lcb_jd_sm_ytg_kbe_fanyaonly_newdilutetodensity0.01(BGI_1.0) that is produeced from such process and can be used to conduct the results presenting in article through the below step.  
 second step,
-using the following commands to simulated the mallard and domesticated spliting under 'split_mig_1_IM' model(detail see code) with each parameter assigned the 
-lower bound,initial value, upper bound for the model and with the lenghth those snp from and with number of repeated times.
+using the following commands to simulated the mallard and domesticated spliting under 'split_mig_1_IM' model(detail see code) with each parameter assigned the lower bound,initial value, upper bound for the model and with the lenghth those snp from and with number of repeated times.  
 command: python2 life/src/NGS/Analysis/usedadiPy2_7/dadicode.py -n mallard14 26 -n quantizpool 24 -f m_sp_sx_pk_gy_lcb_jd_sm_ytg_kbe_fanyaonly_newdilutetodensity0.01 -m split_mig_1_IM -p nuA 2 1e-05 50 -p s 0.5 0 1 -p TA 0.3 1e-06 10 -p TS 0.1 1e-06 5 -p m12 0.5 1e-06 8 -p m21 0.5 1e-06 8 -T m_d -l 480650.4721472733 -b 100 20
 
 This command can be repeated called by the wrapper bootstrapdadisimulation.py but with random initial values for parameters of the model.
@@ -142,9 +147,4 @@ Blue are all spotbilled ducks
 pub Doms include: 2 JianAn, 3 Longcheng jade green, 3 Mawang, 3 Putian, 3 Taiwan, 3 Sansui, 3 Youxian.
 LCW: Liancheng White, MPL : Maple
 
-Two chromosome-level genomes are deposit in the NCBI(NOIJ02000000) and some additional information under assembly/.
-cite: https://doi.org/10.1101/2020.02.03.933069
 
-[Our article](manuscript/MS%20for%20genome%20biology%20clean.pdf) last time was reject due to [a reviewer claims that our findings have been reported in somewhere else for one reason, which is not true and they published later than ours preprint version]("manuscript/point to point file GBIO.pdf"). 
-
-I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.
