@@ -5,7 +5,7 @@ The core results presented in the paper, [which was used by the third reviewer t
 
 Two chromosome-level genomes are deposit in the NCBI(NOIJ00000000) and some additional information under assembly/.  
 
-I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.
+I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.  
 ######dadi simulation (with example based on BGI_1.0 and ZJU1 reference)  
 basically, there are two steps for replicating dadi simulations:  
 first, repeatly generate input files of dadi by sampling from SNP callling files(obtained by using GenerateSNPfilefromvcffile.py or GenerateSNPfilefromvcftable.py for vcf files or sql snp databases for populations, respectively)
