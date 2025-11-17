@@ -6,7 +6,7 @@ The core results presented in the paper, [which was used by the third reviewer t
 Two chromosome-level genomes are deposit in the NCBI(NOIJ00000000) and some additional information under assembly/.  
 
 I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.  
-######dadi simulation (with example based on BGI_1.0 and ZJU1 reference)  
+###### dadi simulation (with example based on BGI_1.0 and ZJU1 reference)  
 basically, there are two steps for replicating dadi simulations:  
 first, repeatly generate input files of dadi by sampling from SNP callling files(obtained by using GenerateSNPfilefromvcffile.py or GenerateSNPfilefromvcftable.py for vcf files or sql snp databases for populations, respectively)
 This's been done through the process: using a sql outer-join like function, merge all selected population vcf files into a big snp table, and sample sites from it then produce dadi input file for each sampling.(detail see article methods)
@@ -22,7 +22,7 @@ wrapper will automately collected all the simulated estimates and all the arrays
 
 As we mentioned in recent editon submitted to a journal, we replicate most analyses on newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records that we didn't organized:
 
-###1.  dadi input file based on ZJU1 were in simulation output/basedonZJU1 
+### 1.  dadi input file based on ZJU1 were in simulation output/basedonZJU1 
 
 	
     This command produce dadi input file and quantized all vcf files of '-q' parameters into one 178(+1) individuals 'quantizpool' population (last columns of both Allele1/Allele2) in the dadi input file. That is 9 domestic vcf represented 11 domestic populations (newdomesticbreedslcwhitelcwhitelcwhite23.indvd.vcf are 8 domestic breeds regarded as one population)
@@ -113,7 +113,7 @@ As we mentioned in recent editon submitted to a journal, we replicate most analy
     
 F3 and PCA are based on the same dataset that joint-calling from GATK of all sampes of 12 chromosomes and after plink r2=0.5 prune.(supplemented with non pruned full SNPs sets)
 
-####2.  F3-statistic
+#### 2.  F3-statistic
 
 qp3Pop version:701
 inbreed set NO
@@ -126,7 +126,7 @@ number of blocks for block jackknife: 258
 			Source1     Source2     Target     f_3        std.err     Z	SNPs
    		result:	spotbilled  mallard     domestic   0.090572  0.001885    48.049	3956735
 
-###3.  PCA on ZJU1
+### 3.  PCA on ZJU1
 
 ![all147indvd r2_0 5](https://github.com/user-attachments/assets/68c10588-c28b-4caa-9a40-7ac5085d7ada)
 
