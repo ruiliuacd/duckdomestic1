@@ -5,8 +5,26 @@ The core results presented in the paper, [which was used by the third reviewer t
 
 Two chromosome-level genomes are deposit in the NCBI(NOIJ00000000) and some additional information under assembly/.  
 
-I think, as many reviewers have also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.  
-###### dadi simulation (with example based on BGI_1.0 and ZJU1 reference)  
+I think, and many reviewers also agreed, this issue worth further investigation and discussion. I present the text here and welcome communication. The source code of tools https://github.com/ruiliuacd/atcgmagic for this project was intended to be open, and it was indeed made public in the past, having been cloned by many. However, due to some misconduct that has undermined the integrity of academic communication and harmed our interests, access to the source code is now restricted to users known to us, access to the source code is now restricted to user who we know.  
+
+Here is a short recap of rencent 10 reivers' comments, in considering all comments of reviewers and editors are precious  
+
+| reviewer No. | reviewed in journal | attitude |    quote   |  description |
+|--------|-----------------|----|-------------|--------|
+| 1 | Molecular Ecology | negtive | `surprising result of domestic duck’s divergence long before we would expect domestication to have taken place, I find this worrying` | this comment is exactly the conclusion in the latter pub Guo 2021 Zool. Res that is used to reject us in Genome Biol |
+| 2 | Molecular Ecology | revisions | `major revisions are required. conclusion is suspicious. I am doubt the result of Fig 4f.` |
+| 3 | Molecular Ecology | revisions | `results are not very well presented and difficult to follow` `This would assume that a very rare duck species that was the ancestor of the domesticated duck, while at the same time mallard was a species that was very abundant at the time of domestication` |
+| 4 | Molecular Ecology | positive | `This is a fairly interesting manuscript...is well suited to...` |
+| 5 | Molecular Ecology | positive | `I am impressed by the figures in the paper, and the amount of work and number of analyses` `I think the authors did a lot of good job of using multiple methods to bolster their findings...to doing a luciferase assay to assess the functional impact of regions identified as being under positive selection. I was impressed at the care they took`|
+| 1 | BMC biology | positive | `These findings are intriguing; however, there are some major concerns that need to be addressed `|  "reviewers are in principle  
+| 2 | BMC biology | positive | `The conclusions derived from comparisons between domestic and wild ducks sound reasonable to me` | persuaded of the interest 
+| 3 | BMC biology | positive | `writing is really difficult to understand because of grammar errors and also lack of explanation ` | of the topic you are addressing"  |
+| 1 | genome biology | positive | `this is a very interesting and valuable research` | |
+| 3 | genome biology | negtive | `DO NOT enjoy reading` `difficult to pinpoint how this work has any advanced` | four months review time and appealed but no response|
+
+As we mentioned in recent editon that submitted to a journal, we've replicated most analyses on newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records supplementary to main paper:
+------------------------------------------------------
+### 0. dadi simulation (with example based on BGI_1.0)  
 basically, there are two steps for replicating dadi simulations:  
 first, repeatly generate input files of dadi by sampling from SNP callling files(obtained by using GenerateSNPfilefromvcffile.py or GenerateSNPfilefromvcftable.py for vcf files or sql snp databases for populations, respectively)
 This's been done through the process: using a sql outer-join like function, merge all selected population vcf files into a big snp table, and sample sites from it then produce dadi input file for each sampling.(detail see article methods)
@@ -18,9 +36,7 @@ command: python2 life/src/NGS/Analysis/usedadiPy2_7/dadicode.py -n mallard14 26 
 This command can be repeated called by the wrapper bootstrapdadisimulation.py but with random initial values for parameters of the model.
 wrapper will automately collected all the simulated estimates and all the arrays for the head map pictures(the dadi code is modified,mainly 'plotting.py', to output the heatmap values. src can be found in this repos and build in your mechine) 
 
--
-
-As we mentioned in recent editon submitted to a journal, we replicate most analyses on newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records that we didn't organized:
+------------------------------------------------------
 
 ### 1.  dadi input file based on ZJU1 were in simulation output/basedonZJU1 
 
