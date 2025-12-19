@@ -20,9 +20,10 @@ Here is a short recap of rencent 10 reivers' comments, in considering all commen
 | 2 | BMC biology | positive | `The conclusions derived from comparisons between domestic and wild ducks sound reasonable to me` | persuaded of the interest 
 | 3 | BMC biology | positive | `writing is really difficult to understand because of grammar errors and also lack of explanation ` | of the topic you are addressing"  |
 | 1 | genome biology | positive | `this is a very interesting and valuable research` | |
-| 3 | genome biology | negtive | `DO NOT enjoy reading` `difficult to pinpoint how this work has any advanced` | four months review time and appealed but no response|
+| 3 | genome biology | negtive | `DO NOT enjoy reading` `difficult to pinpoint how this work has any advanced` | four months of waiting for review then appealed but no response|
 
-As we mentioned in recent editon that submitted to a journal, we've replicated most analyses on newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records supplementary to main paper:
+### As we mentioned in recent version that submitted to a journal, we've replicated most analyses on newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records supplementary to main paper:
+
 ------------------------------------------------------
 ### 0. dadi simulation (with example based on BGI_1.0)  
 basically, there are two steps for replicating dadi simulations:  
