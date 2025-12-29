@@ -22,7 +22,9 @@ Here is a short recap of rencent 10 reivers' comments, in considering all commen
 | 1 | genome biology | positive | `this is a very interesting and valuable research` | |
 | 3 | genome biology | negtive | `DO NOT enjoy reading` `difficult to pinpoint how this work has any advanced` | four months of waiting for review then appealed but no response|
 
-### As we mentioned in recent version that submitted to a journal, we've replicated most analyses on newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records supplementary to main paper:
+During our arduous submission journey starting in 2016, several high-quality duck whole-genome sequencing papers were published by other after 2018. Whereas we finished in 2015 and the initial submission time was 2017 that is prior to these studies, therefore we didn't cite those excellent paper in earlier version that may have led to some misunderstanding and I congratulate the authors of these papers.    
+###As we mentioned in recent version that submitted to a journal, we've replicated most analyses on the newly widely used reference ZJU1 and included more recently published duck WGS data to confirm our results. 
+Anayses procedures were recorded in our anayses engine and corresponding data and scripts can be found in server host throgh our granted path way to visit. Or contact us for the code and more details to replicate our research. Here present some original exploration records supplementary to main paper:
 
 ------------------------------------------------------
 ### 0. dadi simulation (with example based on BGI_1.0)  
